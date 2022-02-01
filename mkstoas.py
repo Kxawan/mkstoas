@@ -26,7 +26,7 @@ print('===================================')
 print('DDOS FOR SAMP, ULTRA - HOST, 20GTPS')
 print('========== VERSION 1.0 ============')
 print
-victim = str(input('"IP/HOST╠════════>> '))
+victim = str(input('IP/HOST╠════════>> '))
 vport = int(input('PORT╚═════════>> '))
 sent = int(input('SEND PACKETS╚═════════>> '))
 
